@@ -1,6 +1,8 @@
 {
   "semi": true,
   "tabWidth": 2,
+  "proseWrap": "preserve",
+  "endOfLine": "lf",
   "printWidth": 80,
   "quoteProps": "consistent",
   "arrowParens": "always",
@@ -8,5 +10,7 @@
   "trailingComma": "all",
   "bracketSpacing": true,
   "jsxSingleQuote": false,
-  "bracketSameLine": false
+  "bracketSameLine": false,
+  "htmlWhitespaceSensitivity": "css",
+  "embeddedLanguageFormatting": "auto"
 }
