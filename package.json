@@ -22,11 +22,14 @@
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
+  "packageManager": "yarn@3.1.0",
   "devDependencies": {
     "husky": "7.0.4",
     "lint-staged": "11.2.6",
     "pinst": "2.1.6",
     "prettier": "2.4.1"
   },
-  "packageManager": "yarn@3.1.0"
+  "peerDependencies": {
+    "prettier": ">=2.3.0"
+  }
 }
