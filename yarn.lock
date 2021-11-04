@@ -51,19 +51,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-angular-type-enum@npm:^14.0.0":
-  version: 14.0.0
-  resolution: "@commitlint/config-angular-type-enum@npm:14.0.0"
-  checksum: 0d2ff5642d1b8e5ea74e6065396a59354385de743c04c0ac8d7d6c0634cb02d313338538030bf77235f1026ef36015519167f31004a26a79bfe52d8638d9a8d4
-  languageName: node
-  linkType: hard
-
-"@commitlint/config-angular@npm:14.1.0":
+"@commitlint/config-conventional@npm:14.1.0":
   version: 14.1.0
-  resolution: "@commitlint/config-angular@npm:14.1.0"
+  resolution: "@commitlint/config-conventional@npm:14.1.0"
   dependencies:
-    "@commitlint/config-angular-type-enum": ^14.0.0
-  checksum: 925ea17e41e62d2da12d45ac4546910a49968b763a87a7e20724d2807cc2f888faf3e40f7156c7d2212dbd7b884106372e5eedcb5e71b062e56b2248e39be81e
+    conventional-changelog-conventionalcommits: ^4.3.1
+  checksum: ab09dbb11f257fa05ea2637312718b6a1861602a7ef961cb8d3a391b04c7436ad2165447238256cd92f09ed3d3af2c3f7379244ae171f7dc0a51fb7b85f0f1a8
   languageName: node
   linkType: hard
 
@@ -273,7 +266,7 @@ __metadata:
   resolution: "@nodly/prettier-config@workspace:."
   dependencies:
     "@commitlint/cli": 14.1.0
-    "@commitlint/config-angular": 14.1.0
+    "@commitlint/config-conventional": 14.1.0
     "@semantic-release/changelog": 6.0.1
     "@semantic-release/commit-analyzer": 9.0.1
     "@semantic-release/git": 10.0.1
@@ -1465,6 +1458,17 @@ __metadata:
     compare-func: ^2.0.0
     q: ^1.5.1
   checksum: 6ed4972fce25a50f9f038c749cc9db501363131b0fb2efc1fccecba14e4b1c80651d0d758d4c350a609f32010c66fa343eefd49c02e79e911884be28f53f3f90
+  languageName: node
+  linkType: hard
+
+"conventional-changelog-conventionalcommits@npm:^4.3.1":
+  version: 4.6.1
+  resolution: "conventional-changelog-conventionalcommits@npm:4.6.1"
+  dependencies:
+    compare-func: ^2.0.0
+    lodash: ^4.17.15
+    q: ^1.5.1
+  checksum: f866616c8f6f21cea005b42792451bfbd16bd4d82872867d1218f67a7993a53c5d87e26d6b483d9252e8022f2e4570e6cf9fa2a409aae5a3d73eea92ccf78b13
   languageName: node
   linkType: hard
 
