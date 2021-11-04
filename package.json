@@ -5,6 +5,9 @@
   "author": "Nodly",
   "license": "MIT",
   "repository": "nodly/prettier-config",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     ".prettierrc.json",
     "LICENSE",
