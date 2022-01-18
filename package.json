@@ -4,7 +4,10 @@
   "description": "Shareable configuration for prettier",
   "author": "Nodly",
   "license": "MIT",
-  "repository": "nodly/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodly/prettier-config.git"
+  },
   "publishConfig": {
     "access": "public"
   },
