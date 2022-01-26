@@ -1,7 +1,7 @@
 {
   "name": "@nodly/prettier-config",
   "version": "1.0.1",
-  "description": "Shareable configuration for prettier",
+  "description": "A shareable configuration for prettier",
   "author": "Nodly",
   "license": "MIT",
   "repository": {
