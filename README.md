@@ -1,3 +1,5 @@
+[![Release](https://github.com/nodly/prettier-config/actions/workflows/release.yml/badge.svg)](https://github.com/nodly/prettier-config/actions/workflows/release.yml)
+
 # Nodly / Prettier Config
 
 A [shareable configuration](https://prettier.io/docs/en/configuration.html#sharing-configurations) for prettier.
