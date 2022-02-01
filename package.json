@@ -34,7 +34,7 @@
     "@semantic-release/github": "8.0.2",
     "@semantic-release/npm": "9.0.0",
     "husky": "7.0.4",
-    "lint-staged": "12.3.2",
+    "lint-staged": "12.3.3",
     "pinst": "2.1.6",
     "prettier": "2.5.1",
     "semantic-release": "18.0.1"
