@@ -13,9 +13,7 @@
   },
   "files": [
     ".prettierrc.json",
-    "LICENSE",
-    "package.json",
-    "README.md"
+    "CHANGELOG.md"
   ],
   "main": ".prettierrc.json",
   "scripts": {
