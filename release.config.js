@@ -1,6 +1,9 @@
 module.exports = {
   preset: 'angular',
-  branches: ['main'],
+  branches: [
+    { name: 'main' },
+    { name: 'beta', channel: 'beta', prerelease: true },
+  ],
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
