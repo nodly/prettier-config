@@ -47,7 +47,7 @@ To run prettier on your project files you need to add `prettier` to the script s
 ```json
 {
   "scripts": {
-    "format": "prettier --write \"{**/*,*}.{js,jsx,ts,tsx,css,scss,json,md,yml,yaml}\""
+    "format": "prettier --write ."
   }
 }
 ```
@@ -57,8 +57,8 @@ To check that all files are prettified you will need to add another script with 
 ```json
 {
   "scripts": {
-    "format": "prettier --write \"{**/*,*}.{js,jsx,ts,tsx,css,scss,json,md,yml,yaml}\"",
-    "format:check": "prettier --check \"{**/*,*}.{js,jsx,ts,tsx,css,scss,json,md,yml,yaml}\""
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   }
 }
 ```
@@ -71,7 +71,7 @@ For example in a github action:
 jobs:
   build:
     steps:
-      - run: yarn format:check
+      - run: yarn prettier --check .
 ```
 
 ## Release
