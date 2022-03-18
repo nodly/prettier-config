@@ -24,7 +24,7 @@
     "postpublish": "pinst --enable",
     "semantic-release": "semantic-release"
   },
-  "packageManager": "yarn@3.1.1",
+  "packageManager": "yarn@3.2.0",
   "devDependencies": {
     "@commitlint/cli": "16.2.1",
     "@commitlint/config-conventional": "16.2.1",
