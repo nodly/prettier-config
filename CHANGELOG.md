@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/nodly/prettier-config/compare/v1.0.3...v1.0.4) (2022-05-31)
+
+
+### Bug Fixes
+
+* update package.json description ([4cb6805](https://github.com/nodly/prettier-config/commit/4cb6805338dfc3795b58b5c15caf89d93dfe1449))
+
 ## [1.0.3](https://github.com/nodly/prettier-config/compare/v1.0.2...v1.0.3) (2022-02-08)
 
 
