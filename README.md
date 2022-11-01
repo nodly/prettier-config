@@ -6,8 +6,16 @@ A [shareable configuration](https://prettier.io/docs/en/configuration.html#shari
 
 ## Installation
 
+Core installation
+
 ```
 yarn add prettier @nodly/prettier-config --dev
+```
+
+Tailwind installation
+
+```
+yarn add prettier prettier-plugin-tailwindcss @nodly/prettier-config --dev
 ```
 
 ## Usage
