@@ -26,15 +26,15 @@
   },
   "packageManager": "yarn@3.2.4",
   "devDependencies": {
-    "@commitlint/cli": "17.3.0",
-    "@commitlint/config-conventional": "17.3.0",
-    "@semantic-release/changelog": "6.0.2",
+    "@commitlint/cli": "17.6.1",
+    "@commitlint/config-conventional": "17.6.1",
+    "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "husky": "8.0.2",
-    "lint-staged": "13.1.0",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.1",
     "pinst": "3.0.0",
-    "prettier": "2.8.1",
-    "semantic-release": "19.0.5"
+    "prettier": "2.8.8",
+    "semantic-release": "21.0.1"
   },
   "peerDependencies": {
     "prettier": ">=2.4.0"
