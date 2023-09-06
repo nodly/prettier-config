@@ -22,7 +22,7 @@
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --dry-run"
   },
   "packageManager": "yarn@3.6.3",
   "devDependencies": {
