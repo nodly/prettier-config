@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/nodly/prettier-config/compare/v1.0.4...v2.0.0) (2023-09-06)
+
+
+### Features
+
+* remove specified config options using default values ([5e6239a](https://github.com/nodly/prettier-config/commit/5e6239abd39a6a7f91fc41ae5c129314dbf18f35))
+
+
+### BREAKING CHANGES
+
+* Configuration options using default prettier values are
+no longer specied in the config.
+
 ## [1.0.4](https://github.com/nodly/prettier-config/compare/v1.0.3...v1.0.4) (2022-05-31)
 
 
