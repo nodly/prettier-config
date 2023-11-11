@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/nodly/prettier-config/compare/v2.0.1...v3.0.0) (2023-11-11)
+
+
+### Features
+
+* change config format from json to cjs ([259840b](https://github.com/nodly/prettier-config/commit/259840b028b7fe22f6c218d5a1b2961171e60168))
+
+
+### BREAKING CHANGES
+
+* change config file format
+
 ## [2.0.1](https://github.com/nodly/prettier-config/compare/v2.0.0...v2.0.1) (2023-10-11)
 
 
