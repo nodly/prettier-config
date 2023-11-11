@@ -4,6 +4,9 @@
   "description": "A shareable configuration for prettier.",
   "author": "Nodly AB",
   "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nodly/prettier-config.git"
@@ -12,10 +15,10 @@
     "access": "public"
   },
   "files": [
-    ".prettierrc.json",
+    "prettier.config.cjs",
     "CHANGELOG.md"
   ],
-  "main": ".prettierrc.json",
+  "main": "./prettier.config.cjs",
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -25,15 +28,15 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.7.2",
-    "@commitlint/config-conventional": "17.7.0",
+    "@commitlint/cli": "18.4.0",
+    "@commitlint/config-conventional": "18.4.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "husky": "8.0.3",
-    "lint-staged": "14.0.1",
+    "lint-staged": "15.0.2",
     "pinst": "3.0.0",
     "prettier": "3.0.3",
-    "semantic-release": "22.0.5"
+    "semantic-release": "22.0.7"
   },
   "peerDependencies": {
     "prettier": ">=2.4.0"
