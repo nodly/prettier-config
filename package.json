@@ -36,7 +36,7 @@
     "lint-staged": "15.0.2",
     "pinst": "3.0.0",
     "prettier": "3.0.3",
-    "semantic-release": "22.0.7"
+    "semantic-release": "22.0.8"
   },
   "peerDependencies": {
     "prettier": ">=2.4.0"
