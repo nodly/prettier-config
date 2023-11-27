@@ -1,3 +1,10 @@
+# [4.0.0-beta.3](https://github.com/nodly/prettier-config/compare/v4.0.0-beta.2...v4.0.0-beta.3) (2023-11-27)
+
+
+### Bug Fixes
+
+* skip as const ([aabb34b](https://github.com/nodly/prettier-config/commit/aabb34bc1e82c7efd4a6e736b94676d77a60fed9))
+
 # [4.0.0-beta.2](https://github.com/nodly/prettier-config/compare/v4.0.0-beta.1...v4.0.0-beta.2) (2023-11-27)
 
 
