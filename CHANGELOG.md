@@ -1,3 +1,10 @@
+# [4.0.0-beta.4](https://github.com/nodly/prettier-config/compare/v4.0.0-beta.3...v4.0.0-beta.4) (2023-11-27)
+
+
+### Bug Fixes
+
+* remove type-fest ([28e2bb2](https://github.com/nodly/prettier-config/commit/28e2bb286b24db697f0101717a15ab63715623fd))
+
 # [4.0.0-beta.3](https://github.com/nodly/prettier-config/compare/v4.0.0-beta.2...v4.0.0-beta.3) (2023-11-27)
 
 
