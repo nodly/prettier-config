@@ -1,3 +1,15 @@
+# [4.0.0-beta.1](https://github.com/nodly/prettier-config/compare/v3.0.0...v4.0.0-beta.1) (2023-11-27)
+
+
+### Features
+
+* build config file from source and expose types ([ba5695b](https://github.com/nodly/prettier-config/commit/ba5695b6d68bfeb31cebcd78e74a43115260d545))
+
+
+### BREAKING CHANGES
+
+* Config is now exposed with both cjs and esm formats
+
 # [3.0.0](https://github.com/nodly/prettier-config/compare/v2.0.1...v3.0.0) (2023-11-11)
 
 
