@@ -26,6 +26,6 @@ const config = {
   ],
 
   tailwindFunctions: ['clsx'],
-} as const satisfies ReadonlyDeep<Config>;
+} satisfies ReadonlyDeep<Config>;
 
 export default config;
