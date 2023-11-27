@@ -1,3 +1,10 @@
+# [4.0.0-beta.5](https://github.com/nodly/prettier-config/compare/v4.0.0-beta.4...v4.0.0-beta.5) (2023-11-27)
+
+
+### Bug Fixes
+
+* update dependencies ([9d36f1a](https://github.com/nodly/prettier-config/commit/9d36f1a0fe5b89fd6363e271d65ca9a9d0964361))
+
 # [4.0.0-beta.4](https://github.com/nodly/prettier-config/compare/v4.0.0-beta.3...v4.0.0-beta.4) (2023-11-27)
 
 
