@@ -1,7 +1,6 @@
 import type { PluginConfig as SortImportsConfig } from '@ianvs/prettier-plugin-sort-imports';
 import type { Config as PrettierConfig } from 'prettier';
 import type { PluginOptions as TailwindConfig } from 'prettier-plugin-tailwindcss';
-import type { ReadonlyDeep } from 'type-fest';
 
 export type Config = PrettierConfig & TailwindConfig & SortImportsConfig;
 
@@ -26,6 +25,6 @@ const config = {
   ],
 
   tailwindFunctions: ['clsx'],
-} satisfies ReadonlyDeep<Config>;
+} satisfies Config;
 
 export default config;
