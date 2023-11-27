@@ -29,7 +29,7 @@
     }
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite build --watch",
     "build": "tsc && vite build",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
