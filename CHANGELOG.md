@@ -1,3 +1,10 @@
+# [4.0.0-beta.2](https://github.com/nodly/prettier-config/compare/v4.0.0-beta.1...v4.0.0-beta.2) (2023-11-27)
+
+
+### Features
+
+* add shared plugins ([8d332d7](https://github.com/nodly/prettier-config/commit/8d332d7edbb95032b84c2ec29e6dfecdf2cc69c3))
+
 # [4.0.0-beta.1](https://github.com/nodly/prettier-config/compare/v3.0.0...v4.0.0-beta.1) (2023-11-27)
 
 
