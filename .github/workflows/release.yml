@@ -18,6 +18,8 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn --immutable
+      - name: Build config
+        run: yarn build
       - name: Verify formatting
         run: yarn prettier --check .
       - name: Release

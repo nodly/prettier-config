@@ -1,5 +1,6 @@
 {
   "name": "@nodly/prettier-config",
+  "type": "module",
   "version": "3.0.0",
   "description": "A shareable configuration for prettier.",
   "author": "Nodly AB",
@@ -15,11 +16,20 @@
     "access": "public"
   },
   "files": [
-    "prettier.config.cjs",
+    "dist",
     "CHANGELOG.md"
   ],
-  "main": "./prettier.config.cjs",
+  "main": "./dist/prettier.config.cjs",
+  "module": "./dist/prettier.config.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/prettier.config.js",
+      "require": "./dist/prettier.config.cjs"
+    }
+  },
   "scripts": {
+    "build": "tsc && vite build",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "postinstall": "husky install",
@@ -32,11 +42,15 @@
     "@commitlint/config-conventional": "18.4.3",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
+    "@types/node": "20.10.0",
     "husky": "8.0.3",
     "lint-staged": "15.1.0",
     "pinst": "3.0.0",
     "prettier": "3.1.0",
-    "semantic-release": "22.0.8"
+    "semantic-release": "22.0.8",
+    "typescript": "5.3.2",
+    "vite": "5.0.2",
+    "vite-plugin-dts": "3.6.3"
   },
   "peerDependencies": {
     "prettier": ">=2.4.0"
