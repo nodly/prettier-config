@@ -1,3 +1,43 @@
+# [4.0.0-beta.5](https://github.com/nodly/prettier-config/compare/v4.0.0-beta.4...v4.0.0-beta.5) (2023-11-27)
+
+
+### Bug Fixes
+
+* update dependencies ([9d36f1a](https://github.com/nodly/prettier-config/commit/9d36f1a0fe5b89fd6363e271d65ca9a9d0964361))
+
+# [4.0.0-beta.4](https://github.com/nodly/prettier-config/compare/v4.0.0-beta.3...v4.0.0-beta.4) (2023-11-27)
+
+
+### Bug Fixes
+
+* remove type-fest ([28e2bb2](https://github.com/nodly/prettier-config/commit/28e2bb286b24db697f0101717a15ab63715623fd))
+
+# [4.0.0-beta.3](https://github.com/nodly/prettier-config/compare/v4.0.0-beta.2...v4.0.0-beta.3) (2023-11-27)
+
+
+### Bug Fixes
+
+* skip as const ([aabb34b](https://github.com/nodly/prettier-config/commit/aabb34bc1e82c7efd4a6e736b94676d77a60fed9))
+
+# [4.0.0-beta.2](https://github.com/nodly/prettier-config/compare/v4.0.0-beta.1...v4.0.0-beta.2) (2023-11-27)
+
+
+### Features
+
+* add shared plugins ([8d332d7](https://github.com/nodly/prettier-config/commit/8d332d7edbb95032b84c2ec29e6dfecdf2cc69c3))
+
+# [4.0.0-beta.1](https://github.com/nodly/prettier-config/compare/v3.0.0...v4.0.0-beta.1) (2023-11-27)
+
+
+### Features
+
+* build config file from source and expose types ([ba5695b](https://github.com/nodly/prettier-config/commit/ba5695b6d68bfeb31cebcd78e74a43115260d545))
+
+
+### BREAKING CHANGES
+
+* Config is now exposed with both cjs and esm formats
+
 # [3.0.0](https://github.com/nodly/prettier-config/compare/v2.0.1...v3.0.0) (2023-11-11)
 
 
