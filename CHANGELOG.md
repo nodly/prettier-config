@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/nodly/prettier-config/compare/v4.0.0...v5.0.0) (2023-12-07)
+
+
+### Features
+
+* remove prettier as package dependency ([fedec9f](https://github.com/nodly/prettier-config/commit/fedec9fc388a463cd9ffd00d3febfdc0a84add52))
+
+
+### BREAKING CHANGES
+
+* remove prettier as package dependency
+
 # [4.0.0](https://github.com/nodly/prettier-config/compare/v3.0.0...v4.0.0) (2023-11-28)
 
 
