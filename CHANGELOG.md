@@ -1,3 +1,10 @@
+## [5.0.1](https://github.com/nodly/prettier-config/compare/v5.0.0...v5.0.1) (2024-01-07)
+
+
+### Bug Fixes
+
+* bump packages ([3bd0c46](https://github.com/nodly/prettier-config/commit/3bd0c460de76a17abad2e4889b4e7a1f75106445))
+
 # [5.0.0](https://github.com/nodly/prettier-config/compare/v4.0.0...v5.0.0) (2023-12-07)
 
 
