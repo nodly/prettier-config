@@ -773,7 +773,7 @@ __metadata:
     "@ianvs/prettier-plugin-sort-imports": "npm:^4.1.1"
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
-    "@types/node": "npm:20.11.19"
+    "@types/node": "npm:20.11.23"
     husky: "npm:9.0.11"
     lint-staged: "npm:15.2.2"
     pinst: "npm:3.0.0"
@@ -1553,12 +1553,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.19":
-  version: 20.11.19
-  resolution: "@types/node@npm:20.11.19"
+"@types/node@npm:20.11.23":
+  version: 20.11.23
+  resolution: "@types/node@npm:20.11.23"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10/c7f4705d6c84aa21679ad180c33c13ca9567f650e66e14bcee77c7c43d14619c7cd3b4d7b2458947143030b7b1930180efa6d12d999b45366abff9fed7a17472
+  checksum: 10/fc2a86444461fd74a77c565ff6f854f354e5b637eacc42dc1f35bc859025a11bf495a785ca0439a84e0560157491a89735c0dbff48101113334d30d4b20fb1a3
   languageName: node
   linkType: hard
 
