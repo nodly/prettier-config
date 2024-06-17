@@ -1,3 +1,10 @@
+## [5.1.1](https://github.com/nodly/prettier-config/compare/v5.1.0...v5.1.1) (2024-06-17)
+
+
+### Bug Fixes
+
+* re-release for 5.1.0 to create release in github ([cb93fa1](https://github.com/nodly/prettier-config/commit/cb93fa13c6d34fab868e3ca1be4657d03973ca1a))
+
 # [5.1.0](https://github.com/nodly/prettier-config/compare/v5.0.1...v5.1.0) (2024-06-17)
 
 
