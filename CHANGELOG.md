@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/nodly/prettier-config/compare/v5.0.1...v5.1.0) (2024-06-17)
+
+
+### Features
+
+* bump peer dependencies ([e99a5fc](https://github.com/nodly/prettier-config/commit/e99a5fc0494a5758f8c28b51e5ffee2b35e2bf47))
+
 ## [5.0.1](https://github.com/nodly/prettier-config/compare/v5.0.0...v5.0.1) (2024-01-07)
 
 
