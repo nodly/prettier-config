@@ -43,13 +43,13 @@
     "prettier-plugin-tailwindcss": "^0.6.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.3.0",
-    "@commitlint/config-conventional": "19.2.2",
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@types/node": "20.16.13",
-    "husky": "9.1.4",
-    "lint-staged": "15.2.8",
+    "husky": "9.1.6",
+    "lint-staged": "15.2.10",
     "pinst": "3.0.0",
     "prettier": "3.3.3",
     "semantic-release": "24.0.0",
