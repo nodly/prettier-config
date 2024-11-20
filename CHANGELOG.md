@@ -1,3 +1,10 @@
+## [5.2.1](https://github.com/nodly/prettier-config/compare/v5.2.0...v5.2.1) (2024-11-20)
+
+
+### Bug Fixes
+
+* add cn and twMerge to tailwind functions ([baafabc](https://github.com/nodly/prettier-config/commit/baafabcffc64bbd7c5da546ab541ee4369ffa3c7))
+
 # [5.2.0](https://github.com/nodly/prettier-config/compare/v5.1.1...v5.2.0) (2024-10-21)
 
 
