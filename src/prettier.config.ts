@@ -24,7 +24,7 @@ const config = {
     '^[.]',
   ],
 
-  tailwindFunctions: ['clsx'],
+  tailwindFunctions: ['cn', 'clsx', 'twMerge'],
 } satisfies Config;
 
 export default config;
