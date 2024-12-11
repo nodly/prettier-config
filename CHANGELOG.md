@@ -1,3 +1,10 @@
+## [5.2.2](https://github.com/nodly/prettier-config/compare/v5.2.1...v5.2.2) (2024-12-11)
+
+
+### Bug Fixes
+
+* add cva to tailwind classes ([1d4bfdd](https://github.com/nodly/prettier-config/commit/1d4bfdd4f9608b5bdd7e1c48ff6b4830fee749ab))
+
 ## [5.2.1](https://github.com/nodly/prettier-config/compare/v5.2.0...v5.2.1) (2024-11-20)
 
 
