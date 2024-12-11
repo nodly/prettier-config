@@ -870,7 +870,7 @@ __metadata:
     lint-staged: "npm:15.2.11"
     pinst: "npm:3.0.0"
     prettier: "npm:3.4.2"
-    prettier-plugin-tailwindcss: "npm:^0.6.8"
+    prettier-plugin-tailwindcss: "npm:^0.6.9"
     semantic-release: "npm:24.2.0"
     typescript: "npm:5.7.2"
     vite: "npm:5.4.11"
@@ -5474,7 +5474,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.6.8":
+"prettier-plugin-tailwindcss@npm:^0.6.9":
   version: 0.6.9
   resolution: "prettier-plugin-tailwindcss@npm:0.6.9"
   peerDependencies:
