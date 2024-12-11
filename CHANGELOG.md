@@ -1,3 +1,10 @@
+## [5.2.3](https://github.com/nodly/prettier-config/compare/v5.2.2...v5.2.3) (2024-12-11)
+
+
+### Bug Fixes
+
+* update prettier plugin ([de3e3d0](https://github.com/nodly/prettier-config/commit/de3e3d06426c7138ac3a114b76608803c9619c43))
+
 ## [5.2.2](https://github.com/nodly/prettier-config/compare/v5.2.1...v5.2.2) (2024-12-11)
 
 
