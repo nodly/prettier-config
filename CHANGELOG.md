@@ -1,3 +1,10 @@
+## [5.2.5](https://github.com/nodly/prettier-config/compare/v5.2.4...v5.2.5) (2025-11-28)
+
+
+### Bug Fixes
+
+* bump prettier-plugin-tailwind ([eca7a85](https://github.com/nodly/prettier-config/commit/eca7a85188712a2f40335a8789b2abd140eebcb4))
+
 ## [5.2.4](https://github.com/nodly/prettier-config/compare/v5.2.3...v5.2.4) (2025-09-12)
 
 
