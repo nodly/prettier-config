@@ -1,3 +1,10 @@
+## [5.2.7](https://github.com/nodly/prettier-config/compare/v5.2.6...v5.2.7) (2026-05-12)
+
+
+### Bug Fixes
+
+* bump tailwind ([ddb24f4](https://github.com/nodly/prettier-config/commit/ddb24f4c7c99024445c79e858a57afef712a3641))
+
 ## [5.2.6](https://github.com/nodly/prettier-config/compare/v5.2.5...v5.2.6) (2025-12-08)
 
 
