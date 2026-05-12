@@ -1,4 +1,10 @@
-.yarn/
+.vscode/
+.agents/
 
-.yarnrc.yml
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+public/
+coverage/
+
 CHANGELOG.md
