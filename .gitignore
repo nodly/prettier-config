@@ -19,6 +19,7 @@ pids
 *.lcov
 
 # Dependency directories
+/dist
 /node_modules
 
 # TypeScript cache
