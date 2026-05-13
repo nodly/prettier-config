@@ -2,17 +2,18 @@
   "compilerOptions": {
     "lib": ["ES2023"],
     "types": ["node"],
+    "outDir": "dist",
+    "rootDir": "src",
     "target": "ES2023",
     "module": "ESNext",
+    "declaration": true,
     "skipLibCheck": true,
     "useDefineForClassFields": true,
 
     /* Bundler mode */
-    "noEmit": true,
     "isolatedModules": true,
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
-    "allowImportingTsExtensions": true,
 
     /* Linting */
     "strict": true,
