@@ -1,3 +1,17 @@
+# [6.0.0](https://github.com/nodly/prettier-config/compare/v5.2.7...v6.0.0) (2026-05-13)
+
+
+### Features
+
+* publish package as ESM-only ([dc5d036](https://github.com/nodly/prettier-config/commit/dc5d03656dabee287b49aaf066fbe5d09d90e930))
+
+
+### BREAKING CHANGES
+
+* The package now requires Node.js 20 or newer. The CommonJS entrypoint `dist/prettier.config.cjs` and `require` export have been removed, so consumers must load the config through the ESM export at `dist/prettier.config.js`.
+
+The published type entrypoint also changes from `dist/index.d.ts` to `dist/prettier.config.d.ts`. The build now uses tsup instead of Vite, plugin paths are resolved from this package so the shared Prettier config can locate its required plugins reliably, and dependencies are saved with exact versions.
+
 ## [5.2.7](https://github.com/nodly/prettier-config/compare/v5.2.6...v5.2.7) (2026-05-12)
 
 

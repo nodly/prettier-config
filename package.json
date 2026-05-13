@@ -1,7 +1,7 @@
 {
   "name": "@nodly/prettier-config",
   "type": "module",
-  "version": "5.2.7",
+  "version": "6.0.0",
   "description": "A shareable configuration for prettier.",
   "author": "Nodly AB",
   "license": "MIT",
