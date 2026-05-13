@@ -1,6 +1,9 @@
+import { createRequire } from 'node:module';
 import type { PluginConfig as SortImportsConfig } from '@ianvs/prettier-plugin-sort-imports';
 import type { Config as PrettierConfig } from 'prettier';
 import type { PluginOptions as TailwindConfig } from 'prettier-plugin-tailwindcss';
+
+const require = createRequire(import.meta.url);
 
 export type Config = PrettierConfig & TailwindConfig & SortImportsConfig;
 
@@ -8,8 +11,8 @@ const config = {
   singleQuote: true,
 
   plugins: [
-    '@ianvs/prettier-plugin-sort-imports',
-    'prettier-plugin-tailwindcss',
+    require.resolve('@ianvs/prettier-plugin-sort-imports'),
+    require.resolve('prettier-plugin-tailwindcss'),
   ],
 
   importOrder: [

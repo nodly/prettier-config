@@ -6,7 +6,7 @@
   "author": "Nodly AB",
   "license": "MIT",
   "engines": {
-    "node": ">=16"
+    "node": ">=20"
   },
   "repository": {
     "type": "git",
@@ -19,18 +19,18 @@
     "dist",
     "CHANGELOG.md"
   ],
-  "main": "./dist/prettier.config.cjs",
+  "main": "./dist/prettier.config.js",
   "module": "./dist/prettier.config.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/prettier.config.d.ts",
   "exports": {
     ".": {
       "import": "./dist/prettier.config.js",
-      "require": "./dist/prettier.config.cjs"
+      "types": "./dist/prettier.config.d.ts"
     }
   },
   "scripts": {
-    "dev": "vite build --watch",
-    "build": "tsc && vite build",
+    "dev": "tsup src/prettier.config.ts --format esm --dts --watch --out-dir dist",
+    "build": "tsc --noEmit && tsup src/prettier.config.ts --format esm --dts --out-dir dist",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "semantic-release": "semantic-release"
@@ -40,20 +40,15 @@
     "prettier-plugin-tailwindcss": "^0.8.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "20.2.0",
-    "@commitlint/config-conventional": "20.2.0",
+    "@commitlint/cli": "21.0.0",
+    "@commitlint/config-conventional": "21.0.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@types/node": "22.19.2",
-    "pinst": "3.0.0",
-    "prettier": "^3.8.3",
+    "@types/node": "24.12.4",
+    "prettier": "3.8.3",
     "semantic-release": "25.0.3",
-    "typescript": "5.9.3",
-    "vite": "7.2.7",
-    "vite-plugin-dts": "4.5.4"
-  },
-  "peerDependencies": {
-    "prettier": ">=3.0.0"
+    "tsup": "8.5.1",
+    "typescript": "5.9.3"
   },
   "packageManager": "pnpm@11.1.1+sha512.d1fdf5f73c617b64fa1a56a81c3c8dfe0e966e33a6010aa256b517ae77be21d93e05affc0de1a83b0e4f29d569f68b446ae8f068cd7247c0bb3df0fb4d7bdf9a"
 }
