@@ -1,3 +1,10 @@
+## [6.0.1](https://github.com/nodly/prettier-config/compare/v6.0.0...v6.0.1) (2026-11-13)
+
+
+### Bug Fixes
+
+* restore prettier as peer dependency ([93ed98c](https://github.com/nodly/prettier-config/commit/93ed98c2871e00998f99e63d06895f09e974d434))
+
 # [6.0.0](https://github.com/nodly/prettier-config/compare/v5.2.7...v6.0.0) (2026-05-13)
 
 
